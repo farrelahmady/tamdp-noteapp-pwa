@@ -1,0 +1,40 @@
+footer {
+	display: flex;
+	/* position: fixed; */
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 5vw;
+}
+
+footer i {
+	font-size: 6vmin;
+	margin-bottom: 0.5vmin;
+	color: var(--secondary-color-300);
+}
+footer h1 {
+	font-size: 4vmin;
+	color: var(--secondary-color-300);
+}
+footer a {
+	flex: 1;
+	background-color: var(--primary-color-300);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2vmin;
+}
+footer a:hover {
+	background-color: var(--secondary-color-300);
+}
+footer a:hover > i,
+footer a:hover > h1 {
+	color: var(--primary-color-300);
+}
+footer a:first-child {
+	border-top-left-radius: 5vmin;
+}
+footer a:last-child {
+	border-top-right-radius: 5vmin;
+}

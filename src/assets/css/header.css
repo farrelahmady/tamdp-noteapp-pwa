@@ -1,0 +1,15 @@
+header {
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: var(--primary-color-700);
+	padding: 2vh 2vw;
+	border-bottom-left-radius: 5vw;
+	border-bottom-right-radius: 5vw;
+}
+header h1#apptitle {
+	font-family: "Courgette", cursive;
+	font-size: 5vmin;
+	cursor: pointer;
+}

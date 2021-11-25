@@ -1,0 +1,35 @@
+#profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#profile img {
+	object-fit: cover;
+	width: 40vmin;
+	height: 40vmin;
+	border-radius: 100%;
+	box-shadow: 0 0 10vmin black;
+}
+#nama {
+	padding: 5vmin;
+	font-size: 7vmin;
+}
+table {
+	width: 100%;
+}
+th,
+td {
+	padding: 5vmin;
+}
+th {
+	text-align: left;
+}
+#logout {
+	background-color: #df4759;
+	width: 80%;
+	border-radius: 5vmin;
+	font-size: 4vmin;
+	padding: 2vmin;
+}

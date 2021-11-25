@@ -1,0 +1,26 @@
+#task {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#task-head {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+#task-checkbox {
+	width: 4vmin;
+	height: 4vmin;
+	border: 0.5vmin solid red;
+	border-radius: 100%;
+	margin-right: 2vmin;
+}
+#task-amount {
+	font-size: 6vmin;
+}
+#task-amount::after {
+	content: "%";
+	font-size: small;
+	vertical-align: middle;
+	margin-left: 0.5vmin;
+}

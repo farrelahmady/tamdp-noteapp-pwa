@@ -1,0 +1,12 @@
+#note-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#note-content p {
+	overflow: hidden;
+	height: 6vmin;
+	font-size: 3.5vmin;
+	line-height: 1;
+}
