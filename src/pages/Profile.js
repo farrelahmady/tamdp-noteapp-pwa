@@ -6,6 +6,7 @@ export default function Profile() {
 		<div id="profile" className="main">
 			<img src="./assets/img/farrel.webp" />
 			<h1 id="nama">Farrel Ahmad Yudithia</h1>
+			<h2 id="nim">21120119130067</h2>
 			<table>
 				<tr>
 					<th>Email :</th>

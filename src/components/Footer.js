@@ -12,14 +12,19 @@ function Footer() {
 				<i class="fas fa-tasks"></i>
 				<h1>Task</h1>
 			</a>
+			<a href="/pray">
+				<i class="fas fa-mosque"></i>
+				<h1>Profile</h1>
+			</a>
 			<a href="/profile">
 				<i class="fas fa-user"></i>
 				<h1>Profile</h1>
 			</a>
-			<a href="/setting">
+
+			{/* <a href="/setting">
 				<i class="fas fa-cog"></i>
 				<h1>Setting</h1>
-			</a>
+			</a> */}
 		</footer>
 	);
 }

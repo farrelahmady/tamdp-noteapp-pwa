@@ -1,0 +1,12 @@
+#pray {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#pray #title {
+	font-size: 5vmin;
+}
+#pray #time {
+	font-size: 3vmin;
+}

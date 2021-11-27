@@ -3,7 +3,8 @@ import "../assets/css/note.css";
 
 function NoteCard(props) {
 	return (
-		<div
+		<a
+			href="/detail"
 			id="note-card"
 			className="card"
 			style={{ borderLeft: "1vw solid red" }}
@@ -15,7 +16,7 @@ function NoteCard(props) {
 			<div id="note-content">
 				<p>{props.content}</p>
 			</div>
-		</div>
+		</a>
 	);
 }
 

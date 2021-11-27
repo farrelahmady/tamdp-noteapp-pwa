@@ -147,7 +147,9 @@ body {
 	background-color: var(--primary-color-500);
 }
 a {
+	display: block;
 	text-decoration: none;
+	color: inherit;
 }
 p {
 	font-size: 3.5vmin;
@@ -183,7 +185,7 @@ p {
 .card #title {
 	text-transform: capitalize;
 	font-size: 5vmin;
-	font-weight: 700;
+	font-weight: 600;
 }
 .card #date {
 	font-size: 3.5vmin;
@@ -193,4 +195,13 @@ button {
 	text-transform: uppercase;
 	color: white;
 	font-weight: 700;
+}
+#detail-title {
+	font-size: 10vmin;
+	margin-bottom: 5vh;
+}
+#detail-content {
+	/* background-color: white; */
+	height: 70vw;
+	font-size: 4vmin;
 }

@@ -5,10 +5,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Note from "./pages/Note";
 import Profile from "./pages/Profile";
 import Task from "./pages/Task";
-import Setting from "./pages/Setting";
+import DetailNote from "./pages/DetailNote";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Pray from "./pages/Pray";
 
 function App() {
 	return (
@@ -19,8 +20,9 @@ function App() {
 					<Route path="/" element={<Note />} />
 					<Route path="/note" element={<Note />} />
 					<Route path="/task" element={<Task />} />
+					<Route path="/pray" element={<Pray />} />
+					<Route path="/detail" element={<DetailNote />} />
 					<Route path="/profile" element={<Profile />} />
-					<Route path="/setting" element={<Setting />} />
 				</Routes>
 			</Router>
 			<Footer />
