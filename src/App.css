@@ -140,6 +140,7 @@ table {
 	border-spacing: 0;
 }
 * {
+   color: white;
 	font-family: "Catamaran", sans-serif;
 	box-sizing: border-box;
 }
@@ -186,10 +187,12 @@ p {
 	text-transform: capitalize;
 	font-size: 5vmin;
 	font-weight: 600;
+   color: var(--secondary-color-300);
 }
 .card #date {
 	font-size: 3.5vmin;
 	font-weight: 500;
+   color: var(--secondary-color-500);
 }
 button {
 	text-transform: uppercase;
@@ -198,10 +201,22 @@ button {
 }
 #detail-title {
 	font-size: 10vmin;
+	margin-bottom: 1vh;
+   text-align: center;
+   color: var(--secondary-color-300);
+}
+#detail-date {
+	font-size: 5vmin;
 	margin-bottom: 5vh;
+   text-align: center;
+   color: var(--secondary-color-500);
 }
 #detail-content {
-	/* background-color: white; */
-	height: 70vw;
-	font-size: 4vmin;
+	background-color: var(--primary-color-100);
+   text-align: justify;
+   line-height: 1.5;
+   padding: 5vmin;
+	max-height: 60vh;
+	font-size: 5vmin;
+   border-radius: 5vmin;
 }

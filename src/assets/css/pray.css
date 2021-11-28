@@ -1,12 +1,37 @@
+#pray-head{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 2vh;
+   padding: 2vh 0;
+}
+#pray-head h1{
+   color: var(--secondary-color-100);
+   font-size: 8vmin;
+}
+
 #pray {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+   padding: 4vh 5vw;
+   border-top:1vh solid var(--primary-color-100);
 }
 
 #pray #title {
-	font-size: 5vmin;
+   font-weight: 800;
+	font-size: 7vmin;
 }
 #pray #time {
-	font-size: 3vmin;
+   font-weight: 600;
+	font-size: 7vmin;
+   color: var(--secondary-color-500);
+}
+
+#city h1, #city h2{
+   font-size: 4vmin;
+   color: var(--secondary-color-100);
+}#city h2{
+   margin-top: 1vmin;
+   font-size: 3vmin;
 }

@@ -14,7 +14,7 @@ function Footer() {
 			</a>
 			<a href="/pray">
 				<i class="fas fa-mosque"></i>
-				<h1>Profile</h1>
+				<h1>Sholat</h1>
 			</a>
 			<a href="/profile">
 				<i class="fas fa-user"></i>

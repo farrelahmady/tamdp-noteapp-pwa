@@ -17,6 +17,7 @@
 }
 #task-amount {
 	font-size: 6vmin;
+   color: var(--secondary-color-500);
 }
 #task-amount::after {
 	content: "%";

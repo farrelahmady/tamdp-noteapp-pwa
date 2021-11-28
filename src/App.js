@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Pray from "./pages/Pray";
 
 function App() {
+
 	return (
 		<div className="App">
 			<Header />
@@ -21,7 +22,7 @@ function App() {
 					<Route path="/note" element={<Note />} />
 					<Route path="/task" element={<Task />} />
 					<Route path="/pray" element={<Pray />} />
-					<Route path="/detail" element={<DetailNote />} />
+					<Route path="/detailNote/:id" element={<DetailNote/>} />
 					<Route path="/profile" element={<Profile />} />
 				</Routes>
 			</Router>
